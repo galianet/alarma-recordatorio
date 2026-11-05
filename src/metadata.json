@@ -1,0 +1,12 @@
+{
+    "uuid": "alarma-recordatorio@galianet.es",
+    "name": "Alarma Recordatorio",
+    "description": "Countdown timer and alarm clock in the top bar.\n\n* Add or subtract minutes with one click, or set a time of day\n* The top bar shows when the next alarm rings today\n* Write a reminder message\n* Get reminded with a dialog (with Snooze), a fading on-screen message or a system notification, with an optional repeating sound\n* Alarms like GNOME Clocks: days of the week, name, own sound, ringing time and snooze\n* Survives screen locks and restarts: an alarm missed while the screen was locked is shown on unlock\n\nInspired by Reminder Alarm Clock, written from scratch for GNOME 50. Available in English and Spanish.",
+    "version-name": "1.0.0",
+    "shell-version": [
+        "50"
+    ],
+    "url": "https://github.com/galianet/alarma-recordatorio",
+    "gettext-domain": "alarma-recordatorio",
+    "settings-schema": "org.gnome.shell.extensions.alarma-recordatorio"
+}

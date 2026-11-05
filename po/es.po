@@ -1,0 +1,265 @@
+# Spanish translation for Alarma Recordatorio.
+# SPDX-License-Identifier: GPL-2.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: alarma-recordatorio 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# indicator.js
+msgid "At HH:MM"
+msgstr "A las HH:MM"
+
+msgid "Set"
+msgstr "Fijar"
+
+msgid "Reminder message…"
+msgstr "Mensaje del recordatorio…"
+
+msgid "Cancel alarm"
+msgstr "Cancelar alarma"
+
+msgid "Settings"
+msgstr "Preferencias"
+
+msgid "%s left"
+msgstr "Quedan %s"
+
+msgid "No alarm set"
+msgstr "Sin alarma"
+
+# reminder.js
+msgid "Snooze %d min"
+msgstr "Posponer %d min"
+
+msgid "Dismiss"
+msgstr "Cerrar"
+
+msgid "Time is up!"
+msgstr "¡Es la hora!"
+
+msgid "This is a test reminder."
+msgstr "Esto es un aviso de prueba."
+
+msgid "It went off %d min ago, while the session was locked or closed."
+msgstr "Sonó hace %d min, con la sesión bloqueada o cerrada."
+
+msgid "Reminder alarm"
+msgstr "Alarma recordatorio"
+
+msgid "Menu"
+msgstr "Menú"
+
+msgid "Minutes added by each button, separated by spaces. Negative values subtract and are only enabled while enough time is left (e.g. -5 -1 1 5 10 30)."
+msgstr "Minutos que suma cada botón, separados por espacios. Los valores negativos restan y solo se activan si queda tiempo suficiente (p. ej. -5 -1 1 5 10 30)."
+
+msgid "Minute buttons"
+msgstr "Botones de minutos"
+
+msgid "Round to the minute"
+msgstr "Redondear al minuto"
+
+msgid "The alarm goes off at hh:mm:00"
+msgstr "La alarma suena en hh:mm:00"
+
+msgid "Reminder"
+msgstr "Aviso"
+
+msgid "Show the reminder as"
+msgstr "Mostrar el aviso como"
+
+msgid "Dialog with buttons"
+msgstr "Ventana con botones"
+
+msgid "On-screen message that fades out"
+msgstr "Mensaje en pantalla que se desvanece"
+
+msgid "System notification"
+msgstr "Notificación del sistema"
+
+msgid "On-screen message duration"
+msgstr "Duración del mensaje en pantalla"
+
+msgid "Seconds"
+msgstr "Segundos"
+
+msgid "Try it"
+msgstr "Probar"
+
+msgid "Shows a reminder now with the current settings"
+msgstr "Muestra ahora un aviso con la configuración actual"
+
+msgid "Show test reminder"
+msgstr "Mostrar aviso de prueba"
+
+msgid "Sound"
+msgstr "Sonido"
+
+msgid "Play a sound"
+msgstr "Reproducir un sonido"
+
+msgid "Sound file"
+msgstr "Archivo de sonido"
+
+msgid "Use the default alarm sound"
+msgstr "Usar el sonido de alarma predeterminado"
+
+msgid "Choose…"
+msgstr "Elegir…"
+
+msgid "Default alarm sound"
+msgstr "Sonido de alarma predeterminado"
+
+msgid "Repeat until dismissed"
+msgstr "Repetir hasta cerrar el aviso"
+
+msgid "Every 6 seconds, for 2 minutes at most. Best with short sounds."
+msgstr "Cada 6 segundos, durante 2 minutos como máximo. Mejor con sonidos cortos."
+
+msgid "Audio files"
+msgstr "Archivos de audio"
+
+msgid "Choose a sound"
+msgstr "Elige un sonido"
+
+msgid "Accept"
+msgstr "Aceptar"
+
+msgid "Add one with the + button"
+msgstr "Añade una con el botón +"
+
+msgid "Delete alarm"
+msgstr "Eliminar alarma"
+
+msgid "Next to the icon, show"
+msgstr "Junto al icono, mostrar"
+
+msgid "Nothing, only the icon"
+msgstr "Nada, solo el icono"
+
+msgid "Time left on the countdown"
+msgstr "Tiempo que queda de la cuenta atrás"
+
+msgid "Top bar"
+msgstr "Barra superior"
+
+msgid "Add alarm"
+msgstr "Añadir alarma"
+
+msgid "Alarm"
+msgstr "Alarma"
+
+msgid "Alarm at %s"
+msgstr "Alarma de las %s"
+
+msgid "Alarm duration"
+msgstr "Duración de la alarma"
+
+msgid "Alarm sound"
+msgstr "Sonido de alarma"
+
+msgid "Alarms"
+msgstr "Alarmas"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Countdown set for %s"
+msgstr "Cuenta atrás de las %s"
+
+msgid "Done"
+msgstr "Hecho"
+
+msgid "Edit alarm"
+msgstr "Editar alarma"
+
+msgid "Every day"
+msgstr "Todos los días"
+
+msgid "Minutes added by the Snooze button. Each alarm has its own."
+msgstr "Minutos que añade el botón Posponer. Cada alarma tiene los suyos."
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "New alarm"
+msgstr "Nueva alarma"
+
+msgid "No alarms"
+msgstr "No hay alarmas"
+
+msgid "Once"
+msgstr "Una vez"
+
+msgid "Repeat"
+msgstr "Repetir"
+
+msgid "Same as the countdown"
+msgstr "El mismo que la cuenta atrás"
+
+msgid "Same sound as the countdown"
+msgstr "Usar el sonido de la cuenta atrás"
+
+msgid "Snooze duration"
+msgstr "Duración del retardo"
+
+msgid "Snooze the countdown"
+msgstr "Posponer la cuenta atrás"
+
+msgid "They ring at a time of day, on the days you choose. Independent from the countdown. If one goes off while the screen is locked, you will see it when you unlock."
+msgstr "Suenan a una hora del día, los días que elijas. Son independientes de la cuenta atrás. Si una suena con la pantalla bloqueada, la verás al desbloquear."
+
+msgid "Used by the countdown. Each alarm has its own sound and ringing time, but they are muted too when sound is off."
+msgstr "Es el de la cuenta atrás. Cada alarma tiene su propio sonido y duración, pero también se silencian si el sonido está desactivado."
+
+msgid "Weekdays"
+msgstr "Entre semana"
+
+msgid "Weekends"
+msgstr "Fines de semana"
+
+msgid "snoozed until %s"
+msgstr "pospuesta hasta las %s"
+
+msgid "tomorrow"
+msgstr "mañana"
+
+msgctxt "Monday"
+msgid "M"
+msgstr "L"
+
+msgctxt "Tuesday"
+msgid "T"
+msgstr "M"
+
+msgctxt "Wednesday"
+msgid "W"
+msgstr "X"
+
+msgctxt "Thursday"
+msgid "T"
+msgstr "J"
+
+msgctxt "Friday"
+msgid "F"
+msgstr "V"
+
+msgctxt "Saturday"
+msgid "S"
+msgstr "S"
+
+msgctxt "Sunday"
+msgid "S"
+msgstr "D"
+
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+
+msgid "Time of the next alarm, if it is today"
+msgstr "Hora de la próxima alarma, si es hoy"

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="alarma-recordatorio">
+  <schema id="org.gnome.shell.extensions.alarma-recordatorio"
+          path="/org/gnome/shell/extensions/alarma-recordatorio/">
+
+    <!-- Alarm state: kept here so it survives screen locks and restarts -->
+    <key name="end-time" type="x">
+      <default>0</default>
+      <summary>Unix time (ms) when the countdown alarm fires; 0 when none is set</summary>
+    </key>
+    <key name="message" type="s">
+      <default>''</default>
+      <summary>Reminder text for the countdown alarm</summary>
+    </key>
+
+    <!-- Top bar and menu -->
+    <key name="panel-text" type="s">
+      <choices>
+        <choice value="time"/>
+        <choice value="remaining"/>
+        <choice value="none"/>
+      </choices>
+      <default>'time'</default>
+      <summary>What the top bar shows next to the icon: alarm times, time left or nothing</summary>
+    </key>
+    <key name="presets" type="ai">
+      <default>[-10, -5, -1, 1, 5, 10, 15, 30, 60]</default>
+      <summary>Minutes added by each button in the menu; negative values subtract</summary>
+    </key>
+    <key name="round-to-minute" type="b">
+      <default>false</default>
+      <summary>Round the alarm time down to the whole minute</summary>
+    </key>
+
+    <!-- Reminder -->
+    <key name="alert-mode" type="s">
+      <choices>
+        <choice value="dialog"/>
+        <choice value="banner"/>
+        <choice value="notification"/>
+      </choices>
+      <default>'dialog'</default>
+      <summary>How the reminder is shown</summary>
+    </key>
+    <key name="banner-seconds" type="i">
+      <range min="2" max="60"/>
+      <default>8</default>
+      <summary>Seconds the on-screen message stays visible</summary>
+    </key>
+    <key name="snooze-minutes" type="i">
+      <range min="1" max="120"/>
+      <default>5</default>
+      <summary>Minutes added by the Snooze button</summary>
+    </key>
+
+    <!-- Sound -->
+    <key name="play-sound" type="b">
+      <default>true</default>
+      <summary>Play a sound when the alarm fires</summary>
+    </key>
+    <key name="sound-file" type="s">
+      <default>''</default>
+      <summary>URI of a custom sound file; empty uses the theme alarm sound</summary>
+    </key>
+    <key name="repeat-sound" type="b">
+      <default>true</default>
+      <summary>Repeat the sound until the reminder is dismissed (max. 2 minutes)</summary>
+    </key>
+
+    <!-- Alarms at a time of day -->
+    <key name="alarms" type="a(bsissiix)">
+      <default>[]</default>
+      <summary>Alarms as (enabled, "HH:MM" in 24 h, days bit mask with Monday = 1 and 0 = once, name, sound URI or empty, minutes ringing, snooze minutes, Unix time in ms it was snoozed until or 0)</summary>
+    </key>
+    <key name="alarms-checked-until" type="x">
+      <default>0</default>
+      <summary>Internal: Unix time (ms) up to which alarms have been checked</summary>
+    </key>
+
+    <!-- Internal: section the preferences window shows, set by the menu -->
+    <key name="prefs-page" type="s">
+      <choices>
+        <choice value="alarms"/>
+        <choice value="general"/>
+      </choices>
+      <default>'general'</default>
+      <summary>Internal: section shown by the preferences window</summary>
+    </key>
+
+    <!-- Internal: toggled by the preferences window to request a test reminder -->
+    <key name="test-reminder" type="b">
+      <default>false</default>
+      <summary>Internal: toggled by the preferences window to show a test reminder</summary>
+    </key>
+  </schema>
+</schemalist>

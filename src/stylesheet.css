@@ -1,0 +1,74 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+/* Top bar */
+.alarma-panel-label {
+    font-feature-settings: "tnum";
+    padding-left: 4px;
+}
+
+/* Menu */
+.alarma-menu-item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.alarma-menu-box {
+    spacing: 8px;
+    min-width: 17em;
+}
+
+.alarma-time-label {
+    font-size: 30pt;
+    font-weight: 800;
+    font-feature-settings: "tnum";
+}
+
+.alarma-status-label {
+    font-size: 10pt;
+    font-feature-settings: "tnum";
+    margin-bottom: 4px;
+}
+
+.alarma-presets,
+.alarma-row {
+    spacing: 6px;
+}
+
+.alarma-button {
+    padding: 6px 10px;
+}
+
+.alarma-preset-button {
+    font-weight: bold;
+    font-feature-settings: "tnum";
+}
+
+.alarma-message-entry {
+    margin-top: 2px;
+}
+
+.alarma-entry-error {
+    border: 2px solid #e01b24;
+}
+
+.alarma-buttons-row {
+    margin-top: 2px;
+}
+
+/* On-screen message (colours come from the theme OSD style) */
+.alarma-banner {
+    margin-bottom: 0;
+    padding: 24px 40px;
+    spacing: 8px;
+    max-width: 900px;
+}
+
+.alarma-banner-title {
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+.alarma-banner-body {
+    font-size: 12pt;
+    font-weight: normal;
+}
