@@ -414,7 +414,7 @@ class AlarmIndicator extends PanelMenu.Button {
         }, this);
     }
 
-    _onDestroy() {
+    destroy() {
         this._stopWaitingForPrefs();
         this._prefsWindow?.disconnectObject(this);
         this._prefsWindow = null;
@@ -425,6 +425,6 @@ class AlarmIndicator extends PanelMenu.Button {
         this._controller.disconnectObject(this);
         this._controller.setFastTick(false);
         this._settings.disconnectObject(this);
-        super._onDestroy();
+        super.destroy();
     }
 });
