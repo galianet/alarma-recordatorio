@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fixes cleanup of the top bar indicator when the extension is disabled, as requested in the extensions.gnome.org review.
+
 ## 1.0.0
 
 First release, for GNOME Shell 50.
